@@ -40,5 +40,5 @@ def reduce_to_total(source_array)
     total=total+s
   i=i+1
 end
-return source_array
+return total
 end
