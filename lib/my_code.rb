@@ -35,7 +35,7 @@ end
 def reduce_to_total
    i=0
   while i< source_array.length
-    source_array[i]=source_array[i]**2
+    source_array[i]=source_array[i]+source_array[i-1]
   i=i+1
 end
 return source_array
