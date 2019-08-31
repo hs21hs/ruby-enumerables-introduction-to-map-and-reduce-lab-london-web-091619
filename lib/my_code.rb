@@ -31,3 +31,12 @@ def map_to_square(source_array)
 end
 return source_array
 end
+
+def reduce_to_total
+   i=0
+  while i< source_array.length
+    source_array[i]=source_array[i]**2
+  i=i+1
+end
+return source_array
+end
