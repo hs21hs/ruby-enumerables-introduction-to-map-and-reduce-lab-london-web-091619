@@ -65,5 +65,6 @@ def reduce_to_any_true
       return true
     end
     i=i+1
+    if
   end
 end
