@@ -7,3 +7,7 @@ def map_to_negativize(source_array)
 end
 return source_array
 end
+
+def map_to_no_change(dune)
+  return dune
+end
