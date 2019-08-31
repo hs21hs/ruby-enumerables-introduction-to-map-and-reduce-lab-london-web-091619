@@ -65,5 +65,8 @@ def reduce_to_any_true(source_array)
       return true
     end
     i=i+1
+    if i=source_array.length
+      return false
+    end
   end
 end
